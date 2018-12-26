@@ -1,8 +1,3 @@
-import { Team } from "./Team";
-import { Match } from "./Match";
-import { AsyncModel } from "./AsyncModel";
-import { ModelImpl } from "./ModelImpl";
-import { Model } from "./Model";
 import { Db, ObjectId } from 'mongodb';
 import { Article } from "./Article";
 import { MyModelImpl } from "./MyModelImpl";

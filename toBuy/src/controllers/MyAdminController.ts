@@ -1,11 +1,9 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { MyAdminModel } from "../models/admin/MyAdminModel";
-import { AsyncModel } from '../models/AsyncModel';
 import * as dateFormat from 'dateformat';
 import { AuthController } from './AuthController';
 import { MyAsyncModel } from '../models/MyAsyncModel';
 import { MyAsyncModelImpl } from '../models/MyAsyncModelImpl';
-import { request } from 'http';
 import { Db } from 'mongodb';
 
 
