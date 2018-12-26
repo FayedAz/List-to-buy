@@ -106,8 +106,8 @@ async function start()  {
     myExpress.use('/', controller.router());
     myExpress.use('/auth', authController.router());
     myExpress.use('/admin', adminController.router(authController));
-    /*myExpress.use(handleError404);
-    myExpress.use(handleError500);*/
+    myExpress.use(handleError404);
+    myExpress.use(handleError500);
     myExpress.listen(port, function () { console.log('Go to http://localhost:' + port) });
 }
 
